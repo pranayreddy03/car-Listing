@@ -4,12 +4,60 @@
     <meta charset="UTF-8">
     <title>Car Listing</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Hello World</h1>
+<body ng-controller="listingController">
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Car Listing</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6" ng-repeat="car in cars">
+                <div class="well well-sm">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img ng-src="{{car.image}}" class="img-responsive img-rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <h3>{{car.make +' '+ car.model}}</h3>
+                            <p><strong>Year: </strong>{{car.year}}</p>
+                            <p><strong>Mileage: </strong>{{car.mileage}}</p>
+                            <p><strong>Condition: </strong>{{car.condition}}</p>
+                            <p><strong>Color: </strong>{{car.color}}</p>
+                            <p><strong>Price: </strong>{{car.price | currency}}</p>
+                            <button class="btn btn-xs btn-success" ng-hide="show === true" ng-click = "show = !show">Details</button>
+
+                        </div>
+
+                        <div ng-show="show === true">
+                            <div class="col-md-6">{{car.description}}</div>
+                            <div class="col-md-6">
+                                <p><strong>Transmission: </strong>{{car.transmission}}</p>
+                                <p><strong>Engine: </strong>{{car.engine}}</p>
+                                <p><strong>Body Type: </strong>{{car.bodyType}}</p>
+                                <p><strong>MPG: </strong>{{car.mpg}}</p>
+                                <button class="btn btn-xs btn-danger" ng-show="show === true" ng-click = "show = !show">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="lib/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/controllers/listingController.js"></script>
+    <script src="js/factories/carListingFactory.js"></script>
+    <!--<script src="js/filters/carsFilter.js"></script>-->
 </body>
 </html>
