@@ -1,0 +1,122 @@
+[
+  {
+    "make" : "Dodge",
+    "model" : "Charger",
+    "year" : "2016",
+    "mileage" : "8000",
+    "condition" : "used",
+    "price" : "31698",
+    "color" : "White",
+    "image" : "./images/dodge_charger.jpg"
+  },
+  {
+    "make" : "Chrysler",
+    "model" : "300",
+    "year" : "2015",
+    "mileage" : "30000",
+    "condition" : "Certified",
+    "price" : "17000",
+    "color" : "Black",
+    "image" : "./images/chrystler_300.jpg"
+  },
+  {
+    "make" : "Audi",
+    "model" : "A4",
+    "year" : "2009",
+    "mileage" : "90,101",
+    "condition" : "used",
+    "price" : "9999",
+    "color" : "Silver",
+    "image" : "./images/audi_a4.jpg"
+  },
+  {
+    "make" : "Aston Martin",
+    "model" : "DB9",
+    "year" : "2018",
+    "mileage" : "0",
+    "condition" : "New",
+    "price" : "150000",
+    "color" : "Black",
+    "image" : "./images/astonMartin_db9.jpg"
+  },
+  {
+    "make" : "BMW",
+    "model" : "M6",
+    "year" : "2015",
+    "mileage" : "28,658",
+    "condition" : "Certified",
+    "price" : "60012",
+    "color" : "White",
+    "image" : "./images/bmw_m6.jpg"
+  },
+  {
+    "make" : "Ford",
+    "model" : "F-150",
+    "year" : "2014",
+    "mileage" : "24,000",
+    "condition" : "used",
+    "price" : "26000",
+    "color" : "Blue",
+    "image" : "./images/ford_F150.jpg"
+  },
+  {
+    "make" : "Mercedes Benz",
+    "model" : "AMG",
+    "year" : "2018",
+    "mileage" : "500",
+    "condition" : "New",
+    "price" : "200000",
+    "color" : "Green",
+    "image" : "./images/merc_amg.jpg"
+  },
+  {
+    "make" : "Porsche",
+    "model" : "Boxster S",
+    "year" : "2016",
+    "mileage" : "10,856",
+    "condition" : "Used",
+    "price" : "59745",
+    "color" : "Yellow",
+    "image" : "./images/porsche_boxter.jpg"
+  },
+  {
+    "make" : "Buick",
+    "model" : "Cascada",
+    "year" : "2017",
+    "mileage" : "8,632",
+    "condition" : "Certified",
+    "price" : "31541",
+    "color" : "Gray",
+    "image" : "./images/buick_cascada.jpg"
+  },
+  {
+    "make" : "Tesla",
+    "model" : "Model S",
+    "year" : "2015",
+    "mileage" : "35,211",
+    "condition" : "Used",
+    "price" : "51111",
+    "color" : "Silver",
+    "image" : "./images/tesla_s.jpg"
+  },
+  {
+    "make" : "Ferrari",
+    "model" : "California",
+    "year" : "2012",
+    "mileage" : "15,657",
+    "condition" : "Certified",
+    "price" : "122499",
+    "color" : "Black",
+    "image" : "./images/ferrari_california.jpg"
+  },
+  {
+    "make" : "Alfa Romeo",
+    "model" : "4C",
+    "year" : "2015",
+    "mileage" : "19,477",
+    "condition" : "Used",
+    "price" : "41002",
+    "color" : "White",
+    "image" : "./images/alfa_4c.jpg"
+  }
+]
