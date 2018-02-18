@@ -7,7 +7,12 @@
     "condition" : "used",
     "price" : "31698",
     "color" : "White",
-    "image" : "./images/dodge_charger.jpg"
+    "image" : "./images/dodge_charger.jpg",
+    "transmission": "Automatic",
+    "engine" : "6 Cyl",
+    "bodyType" : "Sedan",
+    "mpg":"18/27",
+    "description":"You won't want to miss this excellent value! Feature-packed and decked out! All of the premium features expected of a Dodge are offered, including: a tachometer, an outside temperature display, and cruise control. It features an automatic transmission, rear-wheel drive, and a refined 6 cylinder engine."
   },
   {
     "make" : "Chrysler",
@@ -17,7 +22,12 @@
     "condition" : "Certified",
     "price" : "17000",
     "color" : "Black",
-    "image" : "./images/chrystler_300.jpg"
+    "image" : "./images/chrystler_300.jpg",
+    "transmission": "Automatic",
+    "engine" : "6 Cyl",
+    "bodyType" : "Sedan",
+    "mpg":"19/30",
+    "description":"Exceptional in every sense of the word, this incredibly low mileage vehicle is one of a kind. Marked by excellent quality and features with unmistakable refined leather interior that added value and class to the Chrysler 300 This pre-owned Chrysler 300 looks like new with a clean interior that's been well-kept.  "
   },
   {
     "make" : "Audi",
@@ -27,7 +37,12 @@
     "condition" : "used",
     "price" : "9999",
     "color" : "Silver",
-    "image" : "./images/audi_a4.jpg"
+    "image" : "./images/audi_a4.jpg",
+    "transmission": "Automatic",
+    "engine" : "4 Cyl",
+    "bodyType" : "Sedan",
+    "mpg":"23/31",
+    "description":"Completely redesigned for 2009, the Audi A4 melds an upscale interior with refined, agile handling and impeccable safety scores, making it a good choice for anyone looking for a well-rounded 2009 midsize car."
   },
   {
     "make" : "Aston Martin",
@@ -37,7 +52,12 @@
     "condition" : "New",
     "price" : "150000",
     "color" : "Black",
-    "image" : "./images/astonMartin_db9.jpg"
+    "image" : "./images/astonMartin_db9.jpg",
+    "transmission": "6 Speed Automatic",
+    "engine" : "V12",
+    "bodyType" : "Sedan",
+    "mpg":"13/20",
+    "description":"The industry loves the 2011 Aston Martin DB9 because its steering is precise, the interior is exceptional, the exterior exudes exclusivity and it has one of the smoothest rides in the class."
   },
   {
     "make" : "BMW",
@@ -47,7 +67,12 @@
     "condition" : "Certified",
     "price" : "60012",
     "color" : "White",
-    "image" : "./images/bmw_m6.jpg"
+    "image" : "./images/bmw_m6.jpg",
+    "transmission": "Automatic",
+    "engine" : "8 Cyl",
+    "bodyType" : "Sedan",
+    "mpg":"14/20",
+    "description":"The 2015 BMW 6 Series impresses with its agile handling and powerful engines. No matter which of the three body styles you choose, you'll be more than satisfied with the 6 Series’ stylish interior and strong performance."
   },
   {
     "make" : "Ford",
@@ -57,7 +82,12 @@
     "condition" : "used",
     "price" : "26000",
     "color" : "Blue",
-    "image" : "./images/ford_F150.jpg"
+    "image" : "./images/ford_F150.jpg",
+    "transmission": "Automatic",
+    "engine" : "8 Cyl",
+    "bodyType" : "Pickup",
+    "mpg":"15/22",
+    "description":"The 2014 Ford F-150 has composed handling, potent engine choices, and a spacious rear seat in SuperCrew models, but its cabin is fitted with some cheap plastics and a difficult infotainment system."
   },
   {
     "make" : "Mercedes Benz",
@@ -65,9 +95,14 @@
     "year" : "2018",
     "mileage" : "500",
     "condition" : "New",
-    "price" : "200000",
+    "price" : "200,000",
     "color" : "Green",
-    "image" : "./images/merc_amg.jpg"
+    "image" : "./images/merc_amg.jpg",
+    "transmission": "Automatic",
+    "engine" : "8 Cyl",
+    "bodyType" : "Coupe",
+    "mpg":"15/20",
+    "description":"AMG Performance Exhaust System, Burmester Surround Sound System, Heated Front Seats, Illuminated Entry, Lane Tracking Package, 19 Fr/20 Rr AMG 10-Spoke Forged Titanium and there’s a surprising amount of space for two."
   },
   {
     "make" : "Porsche",
@@ -77,7 +112,12 @@
     "condition" : "Used",
     "price" : "59745",
     "color" : "Yellow",
-    "image" : "./images/porsche_boxter.jpg"
+    "image" : "./images/porsche_boxter.jpg",
+    "transmission": "Manual",
+    "engine" : "6 Cyl",
+    "bodyType" : "Convertible",
+    "mpg":"20/29",
+    "description":"The Boxster has been the measuring stick of its class for years, defining just how luxury sports cars should perform. User-friendly infotainment features are close at hand. Factor in the Boxster’s high reliability and numerous safety features – it’s the best."
   },
   {
     "make" : "Buick",
@@ -87,7 +127,12 @@
     "condition" : "Certified",
     "price" : "31541",
     "color" : "Gray",
-    "image" : "./images/buick_cascada.jpg"
+    "image" : "./images/buick_cascada.jpg",
+    "transmission": "Automatic",
+    "engine" : "4 Cyl",
+    "bodyType" : "Convertible",
+    "mpg":"20/27",
+    "description":"There's nothing quite like the 2017 Buick Cascada. Compared to similarly priced competitors, it provides a decent amount of passenger space for a four-seat convertible, and a cabin that is well-insulated from outside noise. Behind the wheel, it’s a comfortable cruiser."
   },
   {
     "make" : "Tesla",
@@ -97,7 +142,12 @@
     "condition" : "Used",
     "price" : "51111",
     "color" : "Silver",
-    "image" : "./images/tesla_s.jpg"
+    "image" : "./images/tesla_s.jpg",
+    "transmission": "Automatic",
+    "engine" : "Electric",
+    "bodyType" : "Sedan",
+    "mpg":"95/106",
+    "description":"The Tesla Model S dazzles with its comfortable ride, quick acceleration, superb driving range, and easy-to-use infotainment system. High ratings and a large cargo space further add to this well-rounded luxury sedan. State-of-the-art technology is one of the hallmark."
   },
   {
     "make" : "Ferrari",
@@ -107,7 +157,12 @@
     "condition" : "Certified",
     "price" : "122499",
     "color" : "Black",
-    "image" : "./images/ferrari_california.jpg"
+    "image" : "./images/ferrari_california.jpg",
+    "transmission": "Manual",
+    "engine" : "8 Cyl",
+    "bodyType" : "Convertible",
+    "mpg":"14/19",
+    "description":"Ferrari California is unique among other exotic sports cars. Compared to other convertibles, the California’s retractable hardtop makes it more practical and comfortable year-round. California will go from zero to 60 mph in less than four seconds."
   },
   {
     "make" : "Alfa Romeo",
@@ -117,6 +172,11 @@
     "condition" : "Used",
     "price" : "41002",
     "color" : "White",
-    "image" : "./images/alfa_4c.jpg"
+    "image" : "./images/alfa_4c.jpg",
+    "transmission": "6 Speed Automatic",
+    "engine" : "4 Cyl",
+    "bodyType" : "Coupe",
+    "mpg":"24/34",
+    "description":"The 2015 Alfa Romeo 4C is quick, with sharper handling than most of the cars it’s up against, but its cheap, feature-stripped, and impractical interior keeps it from rising above the middle of our luxury sports car rankings. It dashes from zero to 60 mph in 4.5 seconds"
   }
 ]
